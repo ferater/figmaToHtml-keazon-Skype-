@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+![alt text](https://raw.githubusercontent.com/ferater/figmaToHtml-keazon-Skype-/main/src/assets/img/screenshot.png?raw=true)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Vue 3 figma to html
 
-## Recommended IDE Setup
+[original figma](https://www.figma.com/community/file/1196401218625517940)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Setup
+```
+git clone https://github.com/ferater/figmaToHtml-keazon-Skype-.git
+```
+```
+cd figmaToHtml-keazon-Skype-
+```
+```
+yarn or npm install
+```
+```
+yarn dev or npm run dev
+```
+```
+visit http://localhost:5173 
+``` 
+
+figmaToHtml-keazon-Skype-

@@ -1,7 +1,8 @@
 <script setup>
 import Avatar from '../Avatar.vue';
 const avatarProps = {
-    imgPath: "src/assets/img/ryder_tiger.jpg",
+    imgPath: "src/assets/img/jessica_white.jpg",
+    status:"online",
     width: "3.5rem",
     height: "3.5rem"
 }

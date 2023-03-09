@@ -1,6 +1,6 @@
 <script setup>
 defineProps({
-    status:String,
+    status: String,
 })
 </script>
 <template>
@@ -8,18 +8,36 @@ defineProps({
 </template>
 
 <style>
-.badge{
+.badge::after,
+.badge {
+    position: absolute;
+    border-radius: 50%;
+
+}
+
+.badge {
     width: 1rem;
     height: 1rem;
-    border-radius: 50%;
-    position: absolute;
     bottom: 0;
     right: -.3rem;
 }
-.online{
+
+.badge::after {
+    content: '';
+    inset: -.4rem;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+
+}
+
+.online {
     background-color: var(--online-color);
 }
-.offline{
+
+.offline {
     background-color: var(--offline-color);
+}
+.away {
+    background-color: var(--away-color);
 }
 </style>

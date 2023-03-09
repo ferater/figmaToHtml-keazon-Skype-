@@ -1,7 +1,8 @@
 <script setup>
 import Badge from './Badge.vue';
-defineProps({
+const props = defineProps({
     imgPath: String,
+    status: String,
     width: String,
     height: String
 });
@@ -10,7 +11,7 @@ defineProps({
     <div class="avatar-container">
         <img :src="imgPath" alt="" class="avatar">
         <!-- this badge prop is user status -->
-        <Badge status="online"/>
+        <Badge :status="status" />
     </div>
 </template>
 <style>

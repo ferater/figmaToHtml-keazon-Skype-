@@ -1,9 +1,12 @@
 <script setup>
 import ConversationDetail from './ConversationDetail.vue';
+defineProps({
+    message: Object
+})
 </script>
 <template>
     <div class="conversation">
-        <ConversationDetail />
+        <ConversationDetail v-bind="message" class="c-pointer"/>
     </div>
 </template>
 
@@ -16,7 +19,8 @@ import ConversationDetail from './ConversationDetail.vue';
     justify-content: center;
     align-items: center;
 }
-.conversation:nth-child(3){
+
+.conversation:nth-child(2) {
     background-color: #00B0F04D;
 }
 </style>

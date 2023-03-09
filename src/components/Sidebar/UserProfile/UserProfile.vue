@@ -4,6 +4,7 @@ import UserName from './UserName.vue';
 import UserStatus from './UserStatus.vue';
 const avatarProps = {
     imgPath: "src/assets/img/ugur_mercan.jpg",
+    status:"online",
     width: "7.5rem",
     height: "7.5rem",
 }
