@@ -37,7 +37,7 @@ const avatarProps = {
     font-weight: 400;
     font-size: .5rem;
     line-height: .7rem;
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--span-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -53,20 +53,20 @@ const avatarProps = {
     font-weight: 700;
     font-size: 1.1rem;
     line-height: 1.5rem;
-    color: #FFFFFF;
+    color: var(--hx-color);
 }
 
 .conversation-detail .conversation-name span {
     font-weight: 400;
     font-size: .9rem;
     line-height: 1.1rem;
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--span-color);
 }
 
 .conversation-detail .icon-tick {
     height: 3.3rem;
     font-size: 1.2rem;
-    color: #FFFFFF;
+    color: var(--hx-color);
     display: grid;
     align-content: end;
 }

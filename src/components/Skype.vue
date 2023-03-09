@@ -1,11 +1,11 @@
 <script setup>
 import SideBar from './Sidebar/SideBar.vue';
-import ChatSection from './ChatSection.vue'
+import ConversationPanel from './ConversationPanel/ConversationPanel.vue'
 </script>
 <template>
   <div class="container">
     <SideBar />
-    <ChatSection />
+    <ConversationPanel />
   </div>
 </template>
 

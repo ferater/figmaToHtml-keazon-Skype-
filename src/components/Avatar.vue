@@ -1,27 +1,32 @@
 <script setup>
+import Badge from './Badge.vue';
 defineProps({
-    imgPath:String,
-    width:String,
-    height:String
+    imgPath: String,
+    width: String,
+    height: String
 });
 </script>
 <template>
     <div class="avatar-container">
         <img :src="imgPath" alt="" class="avatar">
+        <!-- this badge prop is user status -->
+        <Badge status="online"/>
     </div>
 </template>
 <style>
-.avatar-container{
+.avatar-container {
     width: v-bind('width');
     height: v-bind('height');
-    background-color:var(--border-color);
+    background-color: var(--border-color);
     border: .1rem solid var(--border-color);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-.avatar-container img.avatar{
+
+.avatar-container img.avatar {
     width: v-bind('width');
     height: v-bind('height');
     border-radius: inherit;

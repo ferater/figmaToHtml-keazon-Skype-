@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
 :root{
-  --font-color: #fff;
+  --hx-color: #fff;
+  --online-color: #22F000;
+  --offline-color: rgb(128, 128, 128);
+  --span-color:rgba(255, 255, 255, .3);
   --border-color:#00B0F0;
 }
 html{
@@ -27,6 +30,7 @@ body {
 }
 
 .x-scale:hover{
+  color: #fff!important;
   scale: 1.2;
   transition: all .2s ease;
 }
