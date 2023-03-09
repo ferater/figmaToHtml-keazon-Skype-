@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/ferater/figmaToHtml-keazon-Skype-/main/src/assets/img/screenshot.png?raw=true)
+![alt text](https://raw.githubusercontent.com/ferater/figmaToHtml-keazon-Skype-/main/src/assets/img/ss.png?raw=true)
 
 # Vue 3 figma to html
 
