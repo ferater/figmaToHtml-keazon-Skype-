@@ -20,5 +20,3 @@ yarn dev or npm run dev
 ```
 visit http://localhost:5173 
 ``` 
-
-figmaToHtml-keazon-Skype-
