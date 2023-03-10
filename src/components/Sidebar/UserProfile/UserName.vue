@@ -34,8 +34,8 @@ import { Icon } from '@iconify/vue';
 
 .nick-name h5 {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: rgba(255, 255, 255, .3);
 }
 </style>
